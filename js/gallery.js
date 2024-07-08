@@ -79,6 +79,8 @@ const galleryItems = images.map(image => `
   </li>
 `).join('');
 
+
+
 gallery.insertAdjacentHTML('beforeend', galleryItems);
 
 gallery.addEventListener('click', e => {
@@ -91,6 +93,7 @@ gallery.addEventListener('click', e => {
     const largeImageURL = e.target.dataset.source;
     console.log(largeImageURL); 
   });
+
 
 
 
