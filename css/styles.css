@@ -1,0 +1,19 @@
+body {
+  width: 1440px;
+} 
+
+.gallery {
+  padding: 24px 156px;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 16px;
+  row-gap: 24px;
+  list-style-type: none;
+} 
+
+img {
+  width: 360px;
+  height: 200px;
+  display: block;
+  cursor: pointer;
+}
